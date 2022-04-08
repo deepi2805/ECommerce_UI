@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Login from "./Login.js"
 import Registration from "./Registration.js"
-import Home from "./Home"
+import Menu, {Home,Title} from "./Home"
 
 function App() {
   return (

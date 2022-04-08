@@ -1,8 +1,21 @@
-function Home(){
+export function Home(){
     return(
         <div>
             Home page
         </div>
     )
 }
-export default Home
+export function Title(){
+    return(
+        <div>
+            Title
+        </div>
+    )
+}
+export default function Menu(){
+    return(
+        <div>
+            Menu
+        </div>
+    )
+}
